@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mochiy+Pop+One&family=Noto+Sans+Thai+Looped:wght@100..900&display=swap');
+
+* {
+    font-family: "Kanit";
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+a:active {
+  color: #7a0000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+iframe {
+    max-width: 90%;
+}
+
+::selection {
+  background: #7a0000;
+  color: #ffffff;
+}
+
+header.main-header {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    a.button {
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 3px 15px;
+        margin-right: 15px;
+        color: black;
+        transition: 0.2s;
+        font-weight: 400;
+    }
+
+    a.button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      max-width: 450px;
+
+      .desc {
+        font-size: 14px;
+        font-weight: 300;
+
+        a {
+          font-weight: 400;
+        }
+      }
+    }
+}
+
+.main-warning-construct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+
+  img {
+    margin-bottom: 1rem;
+    width: 90%;
+    max-width: 300px;
+    border-radius: 15px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1, p {
+    width: 90%;
+    text-align: center;
+  }
+
+  h1::before {
+    content: "มุแง เกิดอะไรขึ้นเนี่ย!?";
+  }
+
+  p::before {
+    content: "ดูเหมือนว่าหน้านี้จะยังไม่พร้อมใช้งาน เนื่องจากอยู่ในการพัฒนาหรือปรับปรุงอยู่นะ";
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 575px) {
+    header.main-header {
+    flex-direction: column;
+    a.button {
+        margin: 15px 0;
+    }
+
+    .text {
+      text-align: center;
+      max-width: 90%;
+    }
+  }
+}
