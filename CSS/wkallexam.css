@@ -6,11 +6,11 @@ main.container {
     margin: 0 0 15px 0;
     width: 100%;
 
-    .topic {
+    & .topic {
         width: 56%;
     }
 
-    hr {
+    & hr {
         margin: 15px 0;
         border: none;
         height: 2px;
@@ -19,7 +19,7 @@ main.container {
         width: 100%;
     }
 
-    h2 {
+    & h2 {
         margin-bottom: 5px;
         font-weight: 400;
     }
@@ -35,7 +35,7 @@ main.container {
     column-gap: 1rem;
     margin-bottom: 15px;
 
-    a.link {
+    & a.link {
         transition: 0.2s;
         width: 100%;
         height: 350px;
@@ -49,51 +49,55 @@ main.container {
         box-shadow: 0 0 5px rgba(0, 0, 0, 0);
     }
 
-    a.link:hover {
+    & a.link:hover {
         background-color: rgb(105, 0, 0);
         color: white;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
 
-    a.link .container {
+    & a.link .container {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
         height: 100%;
 
-        .image {
+        & .image {
             display: flex;
             align-items: center;
             justify-content: center;
             width: 100%;
             height: 100%;
-            img {
-                max-width: 500px;
-                width: 100%;
-                object-fit: contain;
-                border-radius: 5px;
-                box-shadow: 0 0 7px rgba(0, 0, 0, 0.201);
-            }
-            i {
-                font-size: 48px;
-                opacity: 50%;
-            }
         }
 
-        .text {
+        & .image img {
+            max-width: 500px;
+            width: 100%;
+            object-fit: contain;
+            border-radius: 5px;
+            box-shadow: 0 0 7px rgba(0, 0, 0, 0.201);
+        }
+
+        & .image i {
+            font-size: 48px;
+            opacity: 50%;
+        }
+
+        & .text {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             height: 100%;
             width: 100%;
-            h2 {
-                font-size: 16px;
-            }
-            p {
-                font-size: 12px;
-                font-weight: 300;
-            }
+        }
+
+        & .text h2 {
+            font-size: 16px;
+        }
+
+        & .text p {
+            font-size: 12px;
+            font-weight: 300;
         }
     }
 }
@@ -121,10 +125,14 @@ main.container {
         text-align: left !important;
         height: 100% !important;
 
-        .image {
-            img {
+        & .image {
+            & img {
                 max-width: 75px !important;
             }
+        }
+
+        & .text {
+            justify-content: center !important;
         }
     }
 }

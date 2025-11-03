@@ -15,12 +15,20 @@ header {
     justify-content: center;
     padding: 5px 0;
     color: white;
-    background-color: brown;
-    img {
+    background-image: linear-gradient(45deg, rgba(195, 0, 0, 1) 0%, rgba(150, 0, 0, 1) 100%);
+
+    & .logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-right: 15px;
+    }
+
+    & .logos img {
         max-width: 50px;
     }
-    p {
+
+    & p {
         text-shadow: 0 0 5px black;
         font-weight: 300;
     }
@@ -35,20 +43,20 @@ header {
     max-width: 750px;
     border-radius: 5px;
 
-    div {
+    & div {
         margin: 0 0 15px 0;
-        hr {
+        & hr {
             margin: 15px 0;
             border: none;
             height: 2px;
             background-color: rgb(44, 44, 44);
             border-radius: 5px;
         }
-        h2 {
+        & h2 {
             margin-bottom: 5px;
             font-weight: 400;
         }
-        a {
+        & a {
             transition: 0.2s;
             padding: 10px 15px;
             margin-bottom: 7px;
@@ -61,32 +69,32 @@ header {
             width: 100%;
         }
 
-        a:hover {
+        & a:hover {
             background-color: rgb(105, 0, 0);
             color: white;
         }
 
-        i {
+        & i {
             margin-right: 15px;
         }
 
-        i.link-icon {
+        & i.link-icon {
             margin-right: 0;
             margin-left: 5px;
             font-size: 12px;
         }
 
 
-        .text {
+        & .text {
             display: flex;
             flex-direction: column;
             margin: auto 0;
             
-            p {
+            & p {
                 font-weight: 400;
             }
 
-            p.desc {
+            & p.desc {
                 font-size: 14px;
                 font-weight: 300;
                 opacity: 50%;
@@ -95,8 +103,48 @@ header {
     }
 }
 
+.lang-selector {
+    margin-left: 1.5rem;
+    font-weight: 200;
+}
+
+.lang-selector button {
+    outline: none;
+    background: none;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.lang-selector .engLang {
+    color: rgb(201, 201, 201);
+
+    & span {
+        font-weight: 200;
+        font-size: 8px;
+    }
+}
+
+.lang-selector .selected {
+    font-weight: bold;
+}
+
 @media screen and (max-width: 763px) {
   .container {
     margin: 15px;
+  }
+  header {
+    flex-direction: column;
+  }
+  header p {
+    display: none;
+  }
+  header img {
+    margin: 0;
+  }
+  .lang-selector {
+    margin: 0;
   }
 }
