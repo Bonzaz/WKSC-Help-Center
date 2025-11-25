@@ -109,6 +109,26 @@ header.main-header {
     content: "ดูเหมือนว่าหน้านี้จะยังไม่พร้อมใช้งาน เนื่องจากอยู่ในการพัฒนาหรือปรับปรุงอยู่นะ";
     font-weight: 300;
   }
+
+  & h1.en::before {
+    content: "Whoa!?";
+  }
+
+  & p.en::before {
+    content: "Easy there! This page isn't ready, and now it's having a meltdown. Try again later!";
+    font-weight: 300;
+  }
+}
+
+.translatable {
+  transition: 0.2s ease-out;
+  opacity: 1;
+}
+
+.translatable.fade-out {
+  opacity: 0.3;
+  transform: scale(1.03) translateX(5px);
+  filter: blur(0.5px);
 }
 
 @media screen and (max-width: 575px) {

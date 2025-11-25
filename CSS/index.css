@@ -104,8 +104,10 @@ header {
 }
 
 .lang-selector {
+    transition: 0.2s;
     margin-left: 1.5rem;
     font-weight: 200;
+    user-select: none;
 }
 
 .lang-selector button {
@@ -116,6 +118,7 @@ header {
     color: white;
     font-weight: 200;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .lang-selector .engLang {
@@ -128,7 +131,10 @@ header {
 }
 
 .lang-selector .selected {
-    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    padding: 0 3px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 763px) {

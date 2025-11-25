@@ -1,6 +1,194 @@
 {
-    "id": {
-        "content": "",
-        "alt": ""
+    "safari-warn": {
+        "th": {
+            "content": "หน้าเว็บไซต์อาจแสดงผลผิดเพี้ยนไปเมื่อเปิดด้วย Safari"
+        },
+        "en": {
+            "content": "Page may display incorrectly when using Safari."
+        }
+    },
+    "index-p-header-title": {
+        "th": {
+            "content": "งานสภานักเรียนโรงเรียนวิทยานุกูลนารีประจำปีการศึกษา 2568"
+        },
+        "en": {
+            "content": "Wittayanukulnaree's Student Council 2025"
+        }
+    },
+    "index-img-logos-wklogo": {
+        "th": {
+            "alt": "ตราโรงเรียนวิทยานุกูลนารี"
+        },
+        "en": {
+            "alt": "Wittayanukulnaree School's Logo"
+        }
+    },
+    "index-img-logos-wksclogo": {
+        "th": {
+            "alt": "ตราสภานักเรียน"
+        },
+        "en": {
+            "alt": "Wittayanukulnaree's Student Council's Logo"
+        }
+    },
+    "index-img-commemorate-queenpic": {
+        "th": {
+            "alt": "สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง"
+        },
+        "en": {
+            "alt": "Her Majesty Queen Sirikit The Queen Mother"
+        }
+    },
+    "index-p-commemorate-queentext": {
+        "th": {
+            "content": "ธ สถิตอยู่ในดวงใจไทยตราบนิรันดร์<br>สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ<br>พระบรมราชชนนีพันปีหลวง<br><br>น้อมสำนึกในพระมหากรุณาธิคุณอันหาที่สุดมิได้<br>ข้าพระพุทธเจ้า คณะกรรมการสภานักเรียนโรงเรียนวิทยานุกูลนารี"
+        },
+        "en": {
+            "content": "Forever enshrined in our hearts<br>We humbly bow with profound gratitude for Her Majesty’s boundless and immeasurable grace<br>With humble reverence, Wittayanukulnaree's Student Council 2025."
+        }
+    },
+    "index-h1-subHeader-title": {
+        "th": {
+            "content": "ศูนย์ช่วยเหลือนักเรียน"
+        },
+        "en": {
+            "content": "Help Center"
+        }
+    },
+    "index-h2-general-title": {
+        "th": {
+            "content": "ทั่วไป"
+        },
+        "en": {
+            "content": "General"
+        }
+    },
+    "index-p-general-text-wkWebsite": {
+        "th": {
+            "content": "เว็บไซต์โรงเรียนวิทยานุกูลนารี<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        },
+        "en": {
+            "content": "WK Website<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        }
+    },
+    "index-p-general-text-wkscIg": {
+        "th": {
+            "content": "สภานักเรียน<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        },
+        "en": {
+            "content": "WK Student Council<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        }
+    },
+    "index-p-general-text-wkinformIg": {
+        "th": {
+            "content": "ฝ่ายประชาสัมพันธ์<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        },
+        "en": {
+            "content": "WK Inform<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        }
+    },
+    "index-p-general-text-wkscReport": {
+        "th": {
+            "content": "รายงานปัญหาการทำงานของสภานักเรียน<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        },
+        "en": {
+            "content": "Student Council Report<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        }
+    },
+    "index-p-discord-text-pbReport": {
+        "th": {
+            "content": "รายงานปัญหาการกระทำความผิด<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        },
+        "en": {
+            "content": "Report a problem<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        }
+    },
+    "index-p-discord-text-getStart": {
+        "th": {
+            "content": "เริ่มต้นเข้าร่วมเซิร์ฟเวอร์"
+        },
+        "en": {
+            "content": "Getting into server"
+        }
+    },
+    "index-p-discord-text-howtoforum": {
+        "th": {
+            "content": "วิธีการใช้งานฟอรั่ม"
+        },
+        "en": {
+            "content": "Using the forum"
+        }
+    },
+    "index-h2-website-title": {
+        "th": {
+            "content": "เว็บไซต์"
+        },
+        "en": {
+            "content": "Website"
+        }
+    },
+    "index-p-website-text-pbReport": {
+        "th": {
+            "content": "รายงานปัญหา/ข้อเสนอแนะของเว็บไซต์<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        },
+        "en": {
+            "content": "Report a problem/Give a feedback<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        }
+    },
+    "index-p-general-text-desc-wkallexam": {
+        "th": {
+            "content": "นโยบายสานต่อสภานักเรียนประจำปีการศึกษา 2567"
+        },
+        "en": {
+            "content": "Continue a policy from student council of 2024."
+        }
+    },
+    "index-p-general-text-desc-chanwangkhong": {
+        "th": {
+            "content": "พื้นที่ขายของสำหรับนักเรียนชาววิทยานุกูลนารี ตามนโยบาย &quot;พี่ขนมปังเนี่ยนะ?! ที่จะขายของ&quot;"
+        },
+        "en": {
+            "content": "An Instagram account to sell goods, made for WK Student."
+        }
+    },
+    "index-p-general-text-chanwangkhong": {
+        "th": {
+            "content": "ชั้นวางของ<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        },
+        "en": {
+            "content": "Chan Wang Khong<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        }
+    },
+    "wkallexam-p-mainHeader-text-desc": {
+        "th": {
+            "content": "แหล่งรวบรวมข้อสอบเพื่อนำไปศึกษาต่อในระดับมัธยมศึกษาและอุดมศึกษา<br> <a target='_blank' href='https://linktr.ee/WKallexam'>คลิกที่นี่เพื่อไปที่เว็บไซต์เก่า</a>"
+        },
+        "en": {
+            "content": "A Source of exams for further study at the secondary and higher education levels.<br> <a target='_blank' href='https://linktr.ee/WKallexam'>Click here to redirect to old site.</a>"
+        }
+    },
+    "main-back-button": {
+        "th": {
+            "content": "&lt; กลับ"
+        },
+        "en": {
+            "content": "&lt; Back"
+        }
+    },
+    "dcGetStart-h1-header-title": {
+        "th": {
+            "content": "เริ่มต้นเข้าร่วมเซิร์ฟเวอร์"
+        },
+        "en": {
+            "content": "Getting into server"
+        }
+    },
+    "dcForum-h1-header-title": {
+        "th": {
+            "content": "วิธีการใช้งานฟอรั่ม"
+        },
+        "en": {
+            "content": "Using the forum"
+        }
     }
 }
