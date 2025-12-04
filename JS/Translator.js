@@ -19,12 +19,13 @@ function Translate(noAnim) {
     const allContents = document.querySelectorAll('*');
 
     const warn = document.querySelector('.main-warning-construct');
-    console.log("HI")
+
     if (warn) {
-        console.log("ADD")
         warn.querySelector('.text h1').classList.toggle("en", lang === "en");
         warn.querySelector('.text p').classList.toggle("en", lang === "en");
     }
+
+    document.querySelector('html').setAttribute('lang', lang.toLowerCase());
 
     allContents.forEach((element) => {
         const elementInfo = tC[element.id];
@@ -65,7 +66,6 @@ function CheckLanguage() {
 
     if (!lang || (lang !== "en" && lang !== "th")) {
         localStorage.setItem('lang', 'th');
-        document.querySelector('html').setAttribute('lang', 'th');
     }
 
     const langSelector = document.querySelector('.lang-selector');
@@ -77,7 +77,6 @@ function CheckLanguage() {
             if (debounce) return;
             debounce = true;
             localStorage.setItem('lang', 'th');
-            document.querySelector('html').setAttribute('lang', 'th');
             InitButtons();
             Translate();
 
@@ -91,7 +90,6 @@ function CheckLanguage() {
             if (debounce) return;
             debounce = true;
             localStorage.setItem('lang', 'en');
-            document.querySelector('html').setAttribute('lang', 'en');
             InitButtons();
             Translate();
 
