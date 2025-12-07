@@ -28,7 +28,7 @@ function Translate(noAnim) {
     document.querySelector('html').setAttribute('lang', lang.toLowerCase());
 
     allContents.forEach((element) => {
-        const elementInfo = tC[element.id];
+        const elementInfo = tC[element.id || element.getAttribute("globalid")];
         if (!elementInfo) return;
 
         const content = elementInfo[lang].content;
