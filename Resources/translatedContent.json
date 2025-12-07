@@ -23,6 +23,22 @@
             "content": "Desktop"
         }
     },
+    "search-here": {
+        "th": {
+            "content": "ค้นหาที่นี่"
+        },
+        "en": {
+            "content": "Search here"
+        }
+    },
+    "search-not-found": {
+        "th": {
+            "content": "ไม่พบผลการค้นหา"
+        },
+        "en": {
+            "content": "Search results not found."
+        }
+    },
     "index-p-header-title": {
         "th": {
             "content": "งานสภานักเรียนโรงเรียนวิทยานุกูลนารีประจำปีการศึกษา 2568"
@@ -116,7 +132,15 @@
             "content": "รายงานปัญหาการกระทำความผิด<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
         },
         "en": {
-            "content": "Report a problem<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+            "content": "Report a user<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        }
+    },
+    "index-p-discord-text-pbfbReport": {
+        "th": {
+            "content": "รายงานปัญหา/ข้อเสนอแนะของเซิร์ฟเวอร์<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
+        },
+        "en": {
+            "content": "Report a problem/Give a feedback<i class='fa-solid fa-arrow-up-right-from-square link-icon'></i>"
         }
     },
     "index-p-discord-text-getStart": {
