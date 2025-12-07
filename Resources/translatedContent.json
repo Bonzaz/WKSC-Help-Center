@@ -350,5 +350,13 @@
         "en": {
             "content": "2. Before you start, please read the 'Post Guidelines' first. Here are the basic rules for all forums."
         }
+    },
+    "dcForum-p-3-container": {
+        "th": { 
+            "content": "งดใช้ถ้อยคำหยาบคาย / กล่าวถึงบุคคลอื่นในทางลบ"
+        },
+        "en": {
+            "content": "Do not use offensive language or negatively mention other individuals."
+        }
     }
 }
