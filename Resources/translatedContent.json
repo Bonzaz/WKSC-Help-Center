@@ -366,5 +366,45 @@
         "en": {
             "content": "3. Don’t forget to add tags! Make sure the tags match your topic. If you put random ones, <b>you might get banned!</b>"
         }
+    },
+    "dcForum-p-6-container": {
+        "th": { 
+            "content": "4.พิมพ์เสร็จแล้วก็โพสต์โลดลูกหล่า"
+        },
+        "en": {
+            "content": "4. Once you’re done typing, just hit Post! Off you go!"
+        }
+    },
+    "dcForum-h2-howtoclosepost-title-container": {
+        "th": { 
+            "content": "วิธีการปิดโพสต์"
+        },
+        "en": {
+            "content": "How to Close Your Post"
+        }
+    },
+    "dcForum-p-7-container": {
+        "th": { 
+            "content": "เวลาที่เราได้คำตอบจากสิ่งที่เราตั้งคำถามในฟอรั่มแล้วเนี่ย ให้เราปิดโพสต์ทุกครั้งเพื่อจะได้ให้มันไปอยู่ในหมวดหมู่โพสต์ที่เก่ากว่า และทำให้โพสต์เราไม่ไปบังโพสต์เพื่อนๆคนอื่นที่กำลังหาคำตอบอยู่"
+        },
+        "en": {
+            "content": "Once you’ve got the answer you were looking for, don’t forget to close your post! Closing it will move it to the older posts category, so it won’t stay on top and block other users who still need help."
+        }
+    },
+    "dcForum-p-8-container": {
+        "th": { 
+            "content": "ถ้าโทรศัพท์เรากดค้างที่โพสต์ของเรา ถ้าในคอมให้คลิกขวาจะปรากฎปุ่มปิดโพสต์ให้เรา เราก็กดไปเรยยย"
+        },
+        "en": {
+            "content": "If you’re on mobile, press and hold your post. On PC, right-click it, and you’ll see the “Close Post” option. Just click it—easy!"
+        }
+    },
+    "dcForum-p-9-container": {
+        "th": { 
+            "content": "เสร็จแล้วจ้า จุ๊บๆ"
+        },
+        "en": {
+            "content": "All done! XOXO💕"
+        }
     }
 }
