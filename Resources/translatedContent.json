@@ -310,5 +310,13 @@
         "en": {
             "alt": "Picture of 'พูดคุยรอรับยศ' channel."
         }
+    },
+    "dcForum-p-1-container": {
+        "th": {
+            "content": "เอาล่ะค้าฟฟ เราจะมาสอนการใช้ฟอรั่มใน Discord กัน โดยฟอรั่มจะมีสัญลักษณ์แบบนี้ <img style='width: 32px; margin: 0 5px; display: inline;' src='Resources/Discord/discord-forum.png' alt='forum-icon'> ให้น้องๆได้เข้าไปโพสต์ไปตอบกลับเพื่อนๆ สำหรับคนยังงงๆอยู่ว่ามันโพสต์ยังไง มันใช้ยังไงน้าา เดี๋ยววันนี้แมวปั้น นกเงือกใหญ่ บ้านสักงายจะมาสอนเอง อิอิ"
+        },
+        "en": {
+            "content": "Let’s learn how to use the forum on Discord! You’ll see the forum represented by this icon. <img style='width: 32px; margin: 0 5px; display: inline;' src='Resources/Discord/discord-forum.png' alt='forum-icon'>, here's how to use them. It's super easy, trust me!"
+        }
     }
 }
