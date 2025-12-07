@@ -345,10 +345,10 @@
     },
     "dcForum-p-3-container": {
         "th": { 
-            "content": "2.ก่อนเริ่มพิมพ์ให้อ่านกฎก่อนด้วยนะ กฎพื้นฐานสำหรับทุกฟอรั่มจะมีดังนี้นะคร้าบ"
+            "content": "<p>2.ก่อนเริ่มพิมพ์ให้อ่านกฎก่อนด้วยนะ กฎพื้นฐานสำหรับทุกฟอรั่มจะมีดังนี้นะคร้าบ<ul class='text-list'><li>งดใช้ถ้อยคำหยาบคาย / กล่าวถึงบุคคลอื่นในทางลบ</li><li>ตรวจสอบก่อนโพสต์</li><li>หลีกเลี่ยงการเร่งผู้ตอบ</li><li>ปิดโพสต์ (Close Post) หลังจากได้คำตอบหรือหลังจากจบบทสนทนาทุกครั้ง</li></ul></p>"
         },
         "en": {
-            "content": "2. Before you start, please read the 'Post Guidelines' first. Here are the basic rules for all forums."
+            "content": "<p>2. Before you start, please read the 'Post Guidelines' first. Here are the basic rules for all forums.<ul class='text-list'><li>Do not use offensive language or negatively mention other individuals.</li><li>Review your post before submitting it.</li><li>Avoid rushing or pressuring others for a reply.</li><li>Close your post after receiving an answer or when the discussion has ended.</li></ul></p>"
         }
     },
     "dcForum-p-4-container": {
