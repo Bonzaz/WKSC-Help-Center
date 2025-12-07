@@ -350,5 +350,21 @@
         "en": {
             "content": "2. Before you start, please read the 'Post Guidelines' first. Here are the basic rules for all forums."
         }
+    },
+    "dcForum-p-4-container": {
+        "th": { 
+            "content": "2.1.น้องๆใส่หัวข้อแล้วก็อธิบายได้เลย เพิ่มรูปภาพก็ได้นะ เกร๋เว่อ"
+        },
+        "en": {
+            "content": "2.1. Once you add a title, you can start explaining your topic. You can even add images."
+        }
+    },
+    "dcForum-p-5-container": {
+        "th": { 
+            "content": "3.อย่าลืมใส่แท็กให้พี่ด้วยน้า ใส่แท็กให้ตรงกับเรื่องที่เล่า อย่าใส่มั่ว<b>ระวังโดนแบน</b>เด่อ"
+        },
+        "en": {
+            "content": "3. Don’t forget to add tags! Make sure the tags match your topic. If you put random ones, <b>you might get banned!</b>"
+        }
     }
 }
