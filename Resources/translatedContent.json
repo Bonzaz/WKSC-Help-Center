@@ -318,5 +318,13 @@
         "en": {
             "content": "Let’s learn how to use the forum on Discord! You’ll see the forum represented by this icon. <img style='width: 32px; margin: 0 5px; display: inline;' src='Resources/Discord/discord-forum.png' alt='forum-icon'>, here's how to use them. It's super easy, trust me!"
         }
+    },
+    "dcForum-h2-howtopost-title-container": {
+        "th": {
+            "content": "วิธีการโพสต์"
+        },
+        "en": {
+            "content": "How to Post"
+        },
     }
 }
