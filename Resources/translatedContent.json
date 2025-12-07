@@ -326,5 +326,21 @@
         "en": {
             "content": "How to Post"
         }
+    },
+    "dcForum-p-2-container": {
+        "th": {
+           "content": "1.อย่างแรกเลยน่ะ ให้กดสร้างโพสต์ตรงที่มีกรอบสีแดงของพี่ที่ทำไว้ อิอิ"
+        },
+        "en": {
+            "content": "1. Click on the room or channel you want to post in. Then click the button highlighted in red."
+        }
+    },
+    "dcForum-img-1i-imgContainer": {
+        "th": {
+            "alt": "แตะเครื่องหมายบวกมุมขวาล่าง"
+        },
+        "en": {
+            "alt": "Click the plus icon in the bottom-right corner."
+        }
     }
 }
