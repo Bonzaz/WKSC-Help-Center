@@ -31,6 +31,14 @@
             "content": "Search here"
         }
     },
+    "search-not-found": {
+        "th": {
+            "content": "ไม่พบผลการค้นหา"
+        },
+        "en": {
+            "content": "Search results not found."
+        }
+    },
     "index-p-header-title": {
         "th": {
             "content": "งานสภานักเรียนโรงเรียนวิทยานุกูลนารีประจำปีการศึกษา 2568"

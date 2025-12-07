@@ -8,6 +8,19 @@
   box-sizing: border-box;
 }
 
+#search-not-found {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 60%;
+  display: none;
+}
+
+#search-not-found.show {
+  display: block;
+}
+
 .HIDE {
   display: none;
 }
