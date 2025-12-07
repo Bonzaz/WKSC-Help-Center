@@ -345,11 +345,11 @@
     },
     "dcForum-p-3-container": {
         "th": { 
-            "content": "2.ก่อนเริ่มพิมพ์ให้อ่านกฎก่อนด้วยนะ กฎพื้นฐานสำหรับทุกฟอรั่มจะมีดังนี้นะคร้าบ",
+            "content1": "2.ก่อนเริ่มพิมพ์ให้อ่านกฎก่อนด้วยนะ กฎพื้นฐานสำหรับทุกฟอรั่มจะมีดังนี้นะคร้าบ",
             "content2": "งดใช้ถ้อยคำหยาบคาย / กล่าวถึงบุคคลอื่นในทางลบ"
         },
         "en": {
-            "content": "2. Before you start, please read the 'Post Guidelines' first. Here are the basic rules for all forums.",
+            "content1": "2. Before you start, please read the 'Post Guidelines' first. Here are the basic rules for all forums.",
             "content2": "Do not use offensive language or negatively mention other individuals."
         }
     }
