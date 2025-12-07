@@ -342,5 +342,22 @@
         "en": {
             "alt": "Click the plus icon in the bottom-right corner."
         }
+    },
+    "dcForum-p-3-container": {
+        "th": { 
+            "title": "2.ก่อนเริ่มพิมพ์ให้อ่านกฎก่อนด้วยนะ กฎพื้นฐานสำหรับทุกฟอรั่มจะมีดังนี้นะคร้าบ",
+            "rule1": "งดใช้ถ้อยคำหยาบคาย / กล่าวถึงบุคคลอื่นในทางลบ",
+            "rule2": "ตรวจสอบก่อนโพสต์",
+            "rule3": "หลีกเลี่ยงการเร่งผู้ตอบ",
+            "rule4": "ปิดโพสต์ (Close Post) หลังจากได้คำตอบหรือหลังจากจบบทสนทนาทุกครั้ง"
+        },
+        "en": {
+            "title": "2. Before you start, please read the 'Post Guidelines' first. Here are the basic rules for all forums.",
+            "rule1": "Do not use offensive language or negatively mention other individuals.",
+            "rule2": "Review your post before submitting it.",
+            "rule3": "Avoid rushing or pressuring others for a reply.",
+            "rule4": "Close your post after receiving an answer or when the discussion has ended."
+        }
     }
+
 }
