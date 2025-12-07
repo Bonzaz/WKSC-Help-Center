@@ -28,7 +28,7 @@ function Translate(noAnim) {
     document.querySelector('html').setAttribute('lang', lang.toLowerCase());
 
     allContents.forEach((element) => {
-        const elementInfo = tC[element.id || element.getAttribute("globalid")];
+        const elementInfo = tC[element.id] || tC[element.getAttribute("globalid")];
         if (!elementInfo) return;
 
         const content = elementInfo[lang].content;
@@ -42,7 +42,11 @@ function Translate(noAnim) {
         setTimeout(() => {
 
             if (content) {
-                element.innerHTML = content;
+                if (element.tagName.toLowerCase() === "input" || element.tagName.toLowerCase() === "textarea") {
+                    element.setAttribute("placeholder", content);
+                } else {
+                    element.innerHTML = content;
+                }
             }
 
             if (alt) {

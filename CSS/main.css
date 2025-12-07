@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.HIDE {
+  display: none;
+}
+
 .grayScale {
   filter: grayscale(20%);
 }
