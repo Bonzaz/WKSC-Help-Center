@@ -1,10 +1,6 @@
 const endTime = 1795530060;
 
 const Commemorate = () => {
-    // document.querySelectorAll("*").forEach((element) => {
-    //     element.classList.add("grayScale");
-    // });
-
     async function wait(second) {
         return new Promise(res => setTimeout(res, second * 1000));
     }
@@ -19,10 +15,6 @@ const Commemorate = () => {
 }
 
 const RemoveGrayScale = () => {
-    // document.querySelectorAll(".grayScale").forEach((element) => {
-    //     element.classList.remove("grayScale");
-    // });
-
     const banner = document.getElementsByClassName("commemorate");
     if (banner.length > 0) {
         banner[0].style.display = "none";
