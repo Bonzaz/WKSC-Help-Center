@@ -1,0 +1,322 @@
+main.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    padding: 0 2rem 0 2rem;
+    margin: 2rem 0;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    justify-self: center;
+    text-align: center;
+}
+
+section .column {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.25fr));
+    justify-content: center;
+    gap: 15px;
+}
+
+section .sub-main img {
+    max-width: 250px;
+    margin-top: 1rem;
+}
+
+section.whichPart {
+    width: 90%;
+}
+
+section.whichPart table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+}
+
+section.whichPart th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+section.whichPart th, section.whichPart td {
+    border: 2px solid gray;
+    padding: 8px;
+}
+
+section.whichPart tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+section.whichPart td:nth-child(1){
+    text-align: center;
+    font-size: 24px;
+}
+
+.searchBar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    & .searchBox {
+        padding: 0 15px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(225, 225, 225);
+        width: 15%;
+        min-width: 300px;
+        max-width: 300px;
+        transition: 0.2s cubic-bezier(0,0,0.2,1);
+        border: 2px solid rgba(0, 0, 0, 0);
+        opacity: 70%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    }
+
+    & .searchBox:focus-within {
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        padding: 7px 15px;
+        max-width: 750px;
+        width: 50%;
+        opacity: 100%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    & .searchBox input {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 0 5px;
+        padding: 5px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+section.parties ul li {
+    margin-top: 1rem !important;
+}
+
+section.parties ul li .info {
+    display: none;
+    margin-top: 5px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+section.parties ul li .info table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section.parties ul li .info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04aa25;
+    color: white;
+}
+
+section.parties ul li .info th, section.parties ul li .info td {
+    border: 2px solid rgb(143, 143, 143);
+    padding: 8px;
+}
+
+section.parties ul li .info td:not(:nth-child(2)){
+    text-align: center;
+}
+
+section.parties ul li .info tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+section.parties ul li {
+    margin: auto;
+    width: 90%;
+    list-style: none;
+    user-select: none;
+}
+
+section.parties .party-name {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 15px 5px 15px 5px;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+}
+
+section.parties .party-name label {
+    display: block;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+}
+
+section.parties .party-name img {
+    width: 75px;
+    max-width: 75px;
+    min-width: 75px;
+    height: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 0 1rem;
+}
+
+section.parties .party-name .actions label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+section.parties .party-name .actions p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+section.parties .party-name .actions p span {
+    margin-left: 5px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+section.parties .party-name .actions .dropdown {
+    transform: rotate(-90deg);
+    transition: transform 0.2s ease-in-out;
+}
+section.parties ul li:has(input:checked) .info {
+    display: block;
+    animation: infoAnim 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-bottom: 2rem;
+}
+
+section.parties ul li:has(input:checked) .party-name {
+    background-color: #e6e6e6;
+}
+
+section.parties ul li:has(input:checked) .party-name .actions .dropdown {
+    transform: rotate(0);
+}
+
+section.parties ul li input {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+
+footer p, footer a {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer div {
+    width: 90%;
+    margin: auto;
+}
+
+footer a i {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+@keyframes infoAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 845px) {
+    section.howto .column {
+        display: block;
+        width: 100%;
+    }
+
+    section.howto .column .sub-main {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 633px) {
+    section.parties ul li {
+        width: 100%;
+    }
+
+    section.parties .party-name {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.parties .party-name .actions label {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    section.parties .party-name .actions label p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    section.parties .party-name .actions label p span {
+        margin-top: -15px;
+        margin-left: 0;
+    }
+
+    section.parties .party-name img {
+        margin: 0 0 1rem 0;
+    }
+
+    section.parties .party-name label {
+        width: 90%;
+    }
+
+    section.parties .party-name .actions .dropdown {
+    transform: rotate(180deg);
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer a {
+        word-break: break-all;
+    }
+}

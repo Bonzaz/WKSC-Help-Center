@@ -39,12 +39,20 @@
             "content": "Search results not found."
         }
     },
+    "index-h2-important-title": {
+        "th": {
+            "content": "สำคัญ"
+        },
+        "en": {
+            "content": "Important"
+        }
+    },
     "index-p-header-title": {
         "th": {
             "content": "งานสภานักเรียนโรงเรียนวิทยานุกูลนารีประจำปีการศึกษา 2568"
         },
         "en": {
-            "content": "Wittayanukulnaree's Student Council 2025"
+            "content": "Wittayanukulnaree Student Council 2025"
         }
     },
     "index-img-logos-wklogo": {
@@ -52,7 +60,7 @@
             "alt": "ตราโรงเรียนวิทยานุกูลนารี"
         },
         "en": {
-            "alt": "Wittayanukulnaree School's Logo"
+            "alt": "Wittayanukulnaree School Logo"
         }
     },
     "index-img-logos-wksclogo": {
@@ -60,7 +68,7 @@
             "alt": "ตราสภานักเรียน"
         },
         "en": {
-            "alt": "Wittayanukulnaree's Student Council's Logo"
+            "alt": "Wittayanukulnaree Student Council Logo"
         }
     },
     "index-img-commemorate-queenpic": {
@@ -76,7 +84,7 @@
             "content": "ธ สถิตอยู่ในดวงใจไทยตราบนิรันดร์<br>สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ<br>พระบรมราชชนนีพันปีหลวง<br><br>น้อมสำนึกในพระมหากรุณาธิคุณอันหาที่สุดมิได้<br>ข้าพระพุทธเจ้า คณะกรรมการสภานักเรียนโรงเรียนวิทยานุกูลนารี"
         },
         "en": {
-            "content": "Forever enshrined in our hearts<br>We humbly bow with profound gratitude for Her Majesty’s boundless and immeasurable grace<br>With humble reverence, Wittayanukulnaree's Student Council 2025."
+            "content": "Forever enshrined in our hearts<br>We humbly bow with profound gratitude for Her Majesty’s boundless and immeasurable grace<br>With humble reverence, Wittayanukulnaree Student Council 2025."
         }
     },
     "index-h1-subHeader-title": {
