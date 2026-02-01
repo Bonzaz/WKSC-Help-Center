@@ -83,6 +83,14 @@
             <div class="searchBar">
             <div class="searchBox"><i class="fa-classic fa-solid fa-magnifying-glass"></i><input autocomplete="off" id="search-input" placeholder="ค้นหาพรรค ชื่อหรือเบอร์ผู้สมัครที่นี่" type="text"></div></div>
             <p style="width: 90%; margin: auto; font-weight: 300; color: gray; margin-top: 1rem; font-size: 12px;">หมายเหตุ: ข้อมูลอาจมีการเปลี่ยนแปลงหรือคลาดเคลื่อน เพื่อความมั่นใจ โปรดตรวจสอบข้อมูลจากเว็บไซต์ของพรรคที่คุณสนใจ</p>
+            <div class="filter">
+                <input id="filter-checkbox" type="checkbox">
+                <label for="filter-checkbox">แสดงเฉพาะที่มี สส.เขต ในเพชรบูรณ์</label>
+            </div>
+            <div style="display: none;" class="loading-main">
+                <i class="fa-solid fa-hourglass-half"></i>
+                <p>กำลังโหลด</p>
+            </div>
             <p id="search-not-found" style="font-weight: 300; color: gray; margin-top: 1rem;">ไม่พบผลการค้นหา</p>
             <ul>
                 <li>
@@ -1667,6 +1675,46 @@
                 </li>
             </ul>
         </section>
+        <section class="trends">
+            <h2>ติดตามเทรนด์การเลือกตั้ง</h2>
+            <div class="socials">
+                <div class="tiktok">
+                    <a target="_blank" href="https://www.tiktok.com/tag/เลือกตั้ง69">
+                        <i class="fa-brands fa-tiktok"></i>
+                        <p>#เลือกตั้ง69</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+                <div class="x-twitter">
+                    <a target="_blank" href="https://x.com/hashtag/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%8769">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <p>#เลือกตั้ง69</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+                <div class="youtube">
+                    <a target="_blank" href="https://www.youtube.com/hashtag/%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%872569">
+                        <i class="fa-brands fa-youtube"></i>
+                        <p>#เลือกตั้ง2569</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+                <div class="instagram">
+                    <a target="_blank" href="https://www.instagram.com/explore/tags/เลือกตั้ง69/">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>#เลือกตั้ง69</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+                <div class="facebook">
+                    <a target="_blank" href="https://www.facebook.com/hashtag/เลือกตั้ง69">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>#เลือกตั้ง69</p>
+                        <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
         <p style="margin: auto; text-align: center; font-size: 14px; font-weight: 300; font-style: italic;">"เพราะการเมืองเป็นเรื่องของทุกคน"</p>
     </main>
     <footer>
@@ -1713,11 +1761,15 @@
     <script>
         const searchBox = document.getElementById('search-input');
         const notfound = document.getElementById('search-not-found');
-        searchBox.addEventListener('input', function() {
-            const filter = searchBox.value.toLowerCase().trim();
-            const parties = document.querySelectorAll('.parties li');
-            let foundAny = false;
 
+        const filter = document.getElementById('filter-checkbox');
+        const loading = document.querySelector('.loading-main');
+
+        const search = () => {
+            const filter = searchBox.value.toLowerCase().trim();
+            const parties = document.querySelectorAll('.parties li:not([class="filtered"])');
+            let foundAny = false;
+            
             parties.forEach(party => {
                 const partyName = party.querySelector('.party-name label').innerText.toLowerCase();
                 const infoTable = party.querySelector('.info table');
@@ -1749,7 +1801,45 @@
             });
 
             notfound.style.display = foundAny ? 'none' : 'block';
-        });
+        }
+
+        const loadFilter = () => {
+            document.querySelector('.parties ul').style.display = 'none';
+            loading.removeAttribute('style');
+
+            const selectedValue = filter.checked;
+            const parties = document.querySelectorAll('.parties li');
+
+            parties.forEach(party => {
+                if (selectedValue === false) {
+                    party.removeAttribute("style");
+                    party.classList.remove('filtered');
+                    search();
+                    return;
+                }
+
+                const infoTable = party.querySelector('.info');
+                if (!infoTable) return;
+
+                if (infoTable.querySelector('#not-found')) {
+                    party.style.display = 'none';
+                    party.classList.add('filtered');
+                } else {
+                    party.removeAttribute("style");
+                    party.classList.remove('filtered');
+                }
+            });
+
+            if (searchBox.value.trim() !== '') {
+                search();
+            }
+
+            document.querySelector('.parties ul').removeAttribute('style');
+            loading.style.display = 'none';
+        }
+
+        searchBox.addEventListener('input', search);
+        filter.addEventListener('change', loadFilter);
     </script>
 </body>
 </html>

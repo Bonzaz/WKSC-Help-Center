@@ -8,6 +8,35 @@
   box-sizing: border-box;
 }
 
+input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: brown;
+}
+
+@keyframes loading-anim {
+  0% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.loading-main:not([style="display: none;"]) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  animation: loading-anim 1s infinite alternate linear;
+  margin: 2rem 0;
+}
+
+.loading-main i {
+  font-size: 16px;
+}
+
+.loading-main p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
 #search-not-found {
   text-align: center;
   margin-top: 2rem;
