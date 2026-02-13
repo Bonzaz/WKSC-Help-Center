@@ -82,6 +82,13 @@ header {
             width: 100%;
         }
 
+        & a.not-available {
+            pointer-events: none;
+            cursor: default;
+            opacity: 60%;
+            user-select: none;
+        }
+
         & a:hover {
             background-color: rgb(105, 0, 0);
             color: white;
